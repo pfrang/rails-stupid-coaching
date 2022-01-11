@@ -1,3 +1,28 @@
-body {
-  background-color: gray;
+$height-submit: 40px;
+
+.submit-div {
+  display: flex;
+  border: 1px solid black;
+  width: 600px;
+  justify-content: space-around;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  height: $height-submit;
+  background-color: rgba(31, 31, 246, 0.8);
+  color: white;
+  border-radius: 2px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.submit-txt {
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: $height-submit;
+  padding-left: 10px;
+  font-size: 30px;
 }
